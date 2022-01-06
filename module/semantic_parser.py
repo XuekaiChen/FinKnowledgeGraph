@@ -1,4 +1,4 @@
-from student_code.config import entity_corpus_path, entity_searcher_save_path, contexts
+from FinKnowledgeGraph.config import entity_corpus_path, entity_searcher_save_path, contexts
 import ahocorasick
 import pandas as pd
 import os
