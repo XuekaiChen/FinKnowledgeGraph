@@ -1,6 +1,6 @@
 import fasttext
 import jieba
-from student_code.config import classifier_corpus_path, classifier_save_path
+from FinKnowledgeGraph.config import classifier_corpus_path, classifier_save_path
 
 
 def train_classifier(input_file_path, model_save_path):
