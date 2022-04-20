@@ -40,7 +40,7 @@ print('创建 股东 实体...')
 holder = pd.read_csv('./data/knowledge/股东信息.csv', encoding='gbk')
 for idx, each_row in tqdm(holder.iterrows()):
     each_holder = Node('股东',
-                       股东名称=each_row['股东名称'])
+                       股东名称=each_row['name'])
     graph.create(each_holder)
 
 # # --------------------------- 创建关系
