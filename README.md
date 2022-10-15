@@ -42,3 +42,5 @@ pip install -r requirements.txt
 4. `semantic_parser.py`利用Trie树的Aho-Corasick automation（AC自动机）算法挖按成关键词的快速匹配
 5. `main.py`运行主函数，测试效果
 
+## 4.更多
+配合前端框架，搭建可进行图谱信息检索及多轮问答对话的交互系统平台。点击跳转：[基于金融知识图谱的知识计算引擎构建](https://github.com/XuekaiChen/ShowKnowledge)
